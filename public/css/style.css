@@ -864,6 +864,7 @@ a:focus {
     font-weight: 400;
     border: none;
     background: #ffffff;
+    text-align: justify;
 }
 
 .faqs a.btn {

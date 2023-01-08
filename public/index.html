@@ -18,7 +18,6 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href=favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href=favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest" />
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#54e3d0" />
     <meta name="theme-color" content="#ffffff" />
@@ -54,7 +53,7 @@
           <div class="row align-items-center">
             <div class="col-lg-2">
               <div class="brand">
-                <a href="/">
+                <a href="index.html">
                   <img
                     src="img/logo2.png"
                     alt="EdgeeTech Limited"
@@ -63,7 +62,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-4">
               <p
                 style="
                   font-weight: bold;
@@ -74,8 +73,11 @@
               >
                 EDGEETECH LIMITED
               </p>
+              <p style="text-align: center; font-size: small">
+                Expert software solutions for a more intuitive, efficient world
+              </p>
             </div>
-            <div class="col-lg-7">
+            <div class="col-lg-6">
               <div class="topbar">
                 <div class="topbar-col">
                   <a href="tel:+447554920397"
@@ -83,15 +85,13 @@
                   >
                 </div>
                 <div class="topbar-col">
-                  <a href="mailto:info@edgee.tech"
+                  <a
+                    href="&#109;a&#105;l&#116;&#111;:&#105;&#110;&#102;&#111;&#64;&#101;&#100;&#103;&#101;&#101;&#46;&#116;&#101;&#99;&#104;"
                     ><i class="fa fa-envelope"></i>info@edgee.tech</a
                   >
                 </div>
                 <div class="topbar-col">
                   <div class="topbar-social">
-                    <!-- <a href=""><i class="fab fa-twitter"></i></a>
-                                             <a href=""><i class="fab fa-youtube"></i></a>
-                                              -->
                     <a
                       href="https://www.instagram.com/edgeetech"
                       target="_blank"
@@ -133,9 +133,6 @@
                     >
                     <a href="portfolio.html" class="nav-item nav-link"
                       >Portfolio</a
-                    >
-                    <a href="single.html" class="nav-item nav-link"
-                      >Single Page</a
                     >
                     <a href="contact.html" class="nav-item nav-link"
                       >Contact Us</a
@@ -500,81 +497,58 @@
         </div>
       </div> -->
       <!-- Testimonial End -->
-      <div class="row">
-        <div class="column">
-          <img
-            class="demo cursor"
-            src="img/reactjs.png"
-            style="width: 100%"
-            onclick="currentSlide(1)"
-            alt="React JS"
-          />
+      <div class="testimonial">
+        <div class="row">
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/reactjs.png"
+              style="width: 100%"
+              alt="React JS"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/nextjs.png"
+              style="width: 100%"
+              alt="Next JS"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/nodejs.png"
+              style="width: 100%"
+              alt="Node JS"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/csharpdotnet.png"
+              style="width: 100%"
+              alt="C# DotNet"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/aws.png"
+              style="width: 100%"
+              alt="AWS"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="img/saas.jpg"
+              style="width: 100%"
+              alt="SaaS"
+            />
+          </div>
         </div>
-        <div class="column">
-          <img
-            class="demo cursor"
-            src="img/nextjs.png"
-            style="width: 100%"
-            onclick="currentSlide(2)"
-            alt="Next JS"
-          />
-        </div>
-        <div class="column">
-          <img
-            class="demo cursor"
-            src="img/nodejs.png"
-            style="width: 100%"
-            onclick="currentSlide(3)"
-            alt="Node JS"
-          />
-        </div>
-        <div class="column">
-          <img
-            class="demo cursor"
-            src="img/csharpdotnet.png"
-            style="width: 100%"
-            onclick="currentSlide(1)"
-            alt="C# DotNet"
-          />
-        </div>
-        <div class="column">
-          <img
-            class="demo cursor"
-            src="img/aws.png"
-            style="width: 100%"
-            onclick="currentSlide(2)"
-            alt="AWS"
-          />
-        </div>
-        <div class="column">
-          <img
-            class="demo cursor"
-            src="img/saas.jpg"
-            style="width: 100%"
-            onclick="currentSlide(3)"
-            alt="SaaS"
-          />
-        </div>
-        <!-- <div class="column">
-          <img
-            class="demo cursor"
-            src="img/vercel.jpg"
-            style="width: 100%"
-            onclick="currentSlide(3)"
-            alt="Mountains and fjords"
-          />
-        </div>
-        <div class="column">
-          <img
-            class="demo cursor"
-            src="img/github.jpg"
-            style="width: 100%"
-            onclick="currentSlide(3)"
-            alt="Mountains and fjords"
-          />
-        </div> -->
       </div>
-
       <!-- News Start -->
       <div class="news">
         <div class="container-fluid">
@@ -584,7 +558,7 @@
             </div>
             <div class="col-md-6">
               <h2 class="section-title">Read Latest News</h2>
-              <p>
+              <p style="text-align: justify">
                 To stay up-to-date with the latest news and updates from our
                 company, be sure to follow us on social media! You can find
                 links to our social media accounts at the bottom of our website
@@ -593,7 +567,7 @@
                 us to receive notifications whenever we post new content, such
                 as blog articles, product announcements, and special offers.
               </p>
-              <p>
+              <p style="text-align: justify">
                 By following us on social media, you'll never miss out on what's
                 happening at our company and you'll have access to exclusive
                 content that isn't available on our website. Don't wait, start
