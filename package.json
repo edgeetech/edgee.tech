@@ -1,0 +1,16 @@
+{
+  "name": "edgee.tech",
+  "version": "1.0.0",
+  "description": "EdgeeTech Ltd - UK Based Software Consultancy",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && npm run gh-deploy"
+  },
+  "devDependencies": {
+    "vite": "^8.0.10"
+  }
+}
