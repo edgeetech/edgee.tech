@@ -63,9 +63,9 @@ The site automatically deploys to GitHub Pages on every push to the `main` branc
 
 ### GitHub Pages Configuration
 
-- **Base URL:** `https://edgeetech.github.io/edgee.tech/`
+- **Production URL:** `https://edgee.tech/`
 - **Automatic Deployment:** Enabled via GitHub Actions
-- **Branch:** `gh-pages` (auto-created)
+- **Custom Domain:** Published via `public/CNAME`
 
 ## 📝 Configuration
 
@@ -81,7 +81,7 @@ Edit `index.html` to customize:
 In `vite.config.js`:
 ```javascript
 export default defineConfig({
-  base: '/edgee.tech/',  // Change if deploying to different path
+  base: './',  // Use '/' or './' for a custom domain at the root
   // ...
 });
 ```

@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/edgee.tech/',
+  // Use relative asset paths so the build works on the custom domain root.
+  base: './',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
