@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <!-- @include head -->
+    <title>Products — Taksim, AgentBoard and open tools by EdgeeTech</title>
+    <meta name="description" content="Taksim is EdgeeTech's intelligence control plane for coding agents. We also publish AgentBoard, claude-notifier and GitHub Actions from our own delivery work." />
+    <link rel="canonical" href="https://edgee.tech/products.html" />
+    <meta property="og:title" content="Products — EdgeeTech" />
+    <meta property="og:description" content="Taksim, AgentBoard and the open tools we build for AI-assisted software delivery." />
+    <meta property="og:url" content="https://edgee.tech/products.html" />
+  </head>
+  <body>
+    <!-- @include header -->
+    <main id="main">
+      <section class="page-hero">
+        <div class="bg-grid" aria-hidden="true"></div>
+        <div class="aurora aurora--a" aria-hidden="true"></div>
+        <div class="aurora aurora--b" aria-hidden="true"></div>
+        <div class="container">
+          <p class="eyebrow" data-reveal>Products</p>
+          <h1 class="display" data-reveal style="--d: 1">Built in the work, <span class="serif gradient-text">for the work.</span></h1>
+          <p class="lede" data-reveal style="--d: 2">Everything here started as something we needed while delivering software with coding agents. Taksim is our product; the rest we publish because others might need it too.</p>
+        </div>
+      </section>
+
+      <section class="section--tight" id="taksim">
+        <div class="container">
+          <article class="product">
+            <div class="product-copy">
+              <div class="product-meta">
+                <span class="tag tag--live">● Live · v0.1</span>
+                <span class="tag">Windows · CLI</span>
+                <span class="tag">Local-first</span>
+              </div>
+              <h2 class="h2" style="margin-bottom: 16px">Taksim</h2>
+              <p><strong>Frontier intelligence, only when the work requires it.</strong> Taksim is an intelligence control plane for coding agents. Developers keep the agents they already use; Taksim governs policy, quality, privacy and budget around them, verifies outcomes with engineering evidence and escalates to stronger models or human review only when the evidence says so.</p>
+              <div class="actions">
+                <a class="btn btn--primary" href="https://taksim.edgee.tech" rel="noopener">Visit taksim.edgee.tech <span class="arrow" aria-hidden="true">↗</span></a>
+                <a class="btn" href="https://taksim.edgee.tech/docs" rel="noopener">Read the docs <span class="arrow" aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+            <figure class="terminal" data-animate>
+              <div class="terminal-bar" aria-hidden="true"><i></i><i></i><i></i><span>taksim — illustrative</span></div>
+              <figcaption class="visually-hidden">Illustrative Taksim session: an observed Claude Code session whose build and tests pass, producing a verified receipt.</figcaption>
+              <div class="terminal-body">
+                <span class="line"><span class="t-prompt">$</span> <span class="t-cmd">taksim claude</span></span>
+                <span class="line"><span class="t-dim">› Fix the failing payment tests</span></span>
+                <span class="line"><span class="t-dim">  and simplify the retry logic.</span></span>
+                <span class="line"><span class="t-dim">  observing task and policy envelope…</span></span>
+                <span class="line"><span class="t-ok">  ✓</span> build passed</span>
+                <span class="line"><span class="t-ok">  ✓</span> tests passed</span>
+                <span class="line"><span class="t-ok">  ✓</span> checks passed</span>
+                <span class="line">  receipt  <span class="t-ok">VERIFIED</span>  quality <span class="t-year">high</span>  policy <span class="t-year">allowed</span></span>
+                <span class="line"><span class="t-prompt">$</span> <span class="caret" aria-hidden="true"></span></span>
+              </div>
+            </figure>
+          </article>
+        </div>
+      </section>
+
+      <section class="section--tight">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow" data-reveal>How Taksim works</p>
+              <h2 class="h2" data-reveal>Model choice is one decision. <span class="serif">Outcomes are what matter.</span></h2>
+            </div>
+            <p class="lede" data-reveal>Taksim controls the organisational boundary around intelligence: what is allowed, what quality is required, where planning authority sits and what evidence proves the result.</p>
+          </div>
+          <div class="bento">
+            <div class="card span-2" data-reveal><span class="card-kicker">01</span><h3 class="h3">Observe</h3><p>Understand usage and workload without keeping raw engineering content in canonical telemetry.</p></div>
+            <div class="card span-2" data-reveal style="--d: 1"><span class="card-kicker">02</span><h3 class="h3">Govern</h3><p>Apply company, repository, quality, privacy and budget constraints.</p></div>
+            <div class="card span-2" data-reveal style="--d: 2"><span class="card-kicker">03</span><h3 class="h3">Select or delegate</h3><p>Choose an eligible resource, or let an approved runtime plan internally.</p></div>
+            <div class="card span-2" data-reveal><span class="card-kicker">04</span><h3 class="h3">Verify</h3><p>Judge engineering success on evidence — builds, tests, checks — not on model claims.</p></div>
+            <div class="card span-2" data-reveal style="--d: 1"><span class="card-kicker">05</span><h3 class="h3">Escalate</h3><p>Bring in stronger intelligence or human review when the evidence requires it.</p></div>
+            <div class="card span-2" data-reveal style="--d: 2"><span class="card-kicker">06</span><h3 class="h3">Learn</h3><p>Improve future decisions from verified outcomes.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section--tight">
+        <div class="container">
+          <div class="bento">
+            <div class="card span-3" data-reveal>
+              <span class="card-kicker">Supported clients</span>
+              <h3 class="h3">Keep the agents you already use</h3>
+              <ul class="checklist">
+                <li><strong>Claude Code</strong> — managed sessions and history import</li>
+                <li><strong>Codex</strong> — managed observation and history import</li>
+                <li><strong>Devin</strong> — managed sessions and history import</li>
+                <li><strong>GitHub Copilot coding agent</strong> — history visibility</li>
+              </ul>
+            </div>
+            <div class="card span-3" data-reveal style="--d: 1">
+              <span class="card-kicker">Privacy by architecture</span>
+              <h3 class="h3">Prompt-aware, not prompt-owning</h3>
+              <p>Taksim runs on 127.0.0.1 by default and nothing leaves the machine unless you opt in to a hosted feature. Raw prompts, responses, source code and diffs stay out of its canonical telemetry. Your agents still talk to their own providers under those providers' terms.</p>
+            </div>
+            <div class="card span-3" data-reveal>
+              <span class="card-kicker">Solo</span>
+              <h3 class="h3">Free</h3>
+              <p>For personal use, learning, personal open source and independently owned side projects.</p>
+            </div>
+            <div class="card span-3" data-reveal style="--d: 1">
+              <span class="card-kicker">Team</span>
+              <h3 class="h3">Talk to us</h3>
+              <p>For work done on behalf of an employer, client or organisation: company and repository policy, cross-developer visibility, quality and budget controls.</p>
+              <div class="card-foot"><a class="text-link" href="https://taksim.edgee.tech/pricing" rel="noopener">Pricing details <span class="arrow" aria-hidden="true">↗</span></a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="open-source">
+        <div class="bg-grid" aria-hidden="true"></div>
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow" data-reveal>Open tools</p>
+              <h2 class="h2" data-reveal>Published on <span class="serif">GitHub.</span></h2>
+            </div>
+            <p class="lede" data-reveal>Built for our own use first and shared as they are. Each one states its licence and status in its repository.</p>
+          </div>
+
+          <article class="product product--reverse" style="margin-bottom: 16px">
+            <div class="product-copy">
+              <div class="product-meta">
+                <span class="tag tag--accent">Source-available · ELv2</span>
+                <span class="tag">Claude Code plugin</span>
+                <span class="tag">TypeScript · SQLite</span>
+              </div>
+              <h3>AgentBoard</h3>
+              <p>A local kanban where AI agents do the work and a human verifies and approves it. PM, worker and reviewer agents move tasks across the board; every run keeps a cost and audit trail. Built for Claude Code, with experimental Codex and Copilot support.</p>
+              <div class="actions">
+                <a class="btn" href="https://github.com/edgeetech/agentboard" rel="noopener">edgeetech/agentboard <span class="arrow" aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+            <div class="kanban" role="img" aria-label="Illustration of an AgentBoard kanban board with columns for To do, Agent, Review and Done.">
+              <div class="kanban-col">
+                <h4>To do</h4>
+                <div class="k-card k-card--moving" data-role="pm">Add retry to webhook<small>pm · planned</small></div>
+                <div class="k-card" data-role="pm">Split invoice module<small>pm · planned</small></div>
+              </div>
+              <div class="kanban-col">
+                <h4>Agent</h4>
+                <div class="k-card" data-role="worker">Migrate auth tests<small>worker · running</small></div>
+              </div>
+              <div class="kanban-col">
+                <h4>Review</h4>
+                <div class="k-card" data-role="review">Fix flaky e2e<small>reviewer · checks</small></div>
+              </div>
+              <div class="kanban-col">
+                <h4>Done</h4>
+                <div class="k-card" data-role="human">Bump Node to 22<small>human · approved</small></div>
+              </div>
+            </div>
+          </article>
+
+          <div class="bento">
+            <a class="card card--link span-3" href="https://github.com/edgeetech/claude-notifier" rel="noopener" data-reveal>
+              <span class="card-kicker">MIT · C# / WPF</span>
+              <h3 class="h3">claude-notifier</h3>
+              <p>An animated Windows tray notifier that tells you when Claude Code is waiting for your approval — so agents don't sit idle while you're in another window.</p>
+              <span class="card-foot text-link">View repository <span class="arrow" aria-hidden="true">↗</span></span>
+            </a>
+            <a class="card card--link span-3" href="https://github.com/edgeetech/name-a-session" rel="noopener" data-reveal style="--d: 1">
+              <span class="card-kicker">MIT · Python</span>
+              <h3 class="h3">name-a-session</h3>
+              <p>A Claude Code plugin to name your sessions and find them again later by name.</p>
+              <span class="card-foot text-link">View repository <span class="arrow" aria-hidden="true">↗</span></span>
+            </a>
+            <a class="card card--link span-3" href="https://github.com/edgeetech/deploy-helm-to-eks" rel="noopener" data-reveal>
+              <span class="card-kicker">GitHub Action</span>
+              <h3 class="h3">deploy-helm-to-eks</h3>
+              <p>Deploy Helm charts to Amazon EKS from a GitHub Actions workflow.</p>
+              <span class="card-foot text-link">View repository <span class="arrow" aria-hidden="true">↗</span></span>
+            </a>
+            <a class="card card--link span-3" href="https://github.com/edgeetech/s3-upload-action" rel="noopener" data-reveal style="--d: 1">
+              <span class="card-kicker">GitHub Action</span>
+              <h3 class="h3">s3-upload-action</h3>
+              <p>Upload build output to Amazon S3 as a step in your pipeline.</p>
+              <span class="card-foot text-link">View repository <span class="arrow" aria-hidden="true">↗</span></span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="cta" data-reveal>
+            <h2 class="h2">Running coding agents <span class="serif">across a team?</span></h2>
+            <p class="lede">We can help set them up well, and Taksim can help keep them accountable.</p>
+            <div class="actions">
+              <a class="btn btn--primary" href="/contact.html?topic=taksim">Talk to us about Taksim <span class="arrow" aria-hidden="true">→</span></a>
+              <a class="btn" href="https://taksim.edgee.tech" rel="noopener">Get Taksim free <span class="arrow" aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- @include footer -->
+  </body>
+</html>

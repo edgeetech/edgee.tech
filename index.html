@@ -1,582 +1,342 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-GB">
   <head>
-    <meta charset="utf-8" />
-    <title>EdgeeTech Ltd - UK Based Software Consultancy</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta
-      name="keywords"
-      content="EdgeeTech Softare, UK Based Software Consultancy Company With a Wide Variaty of Services"
-    />
-    <meta
-      content="EdgeeTech Limited is a software consultancy company founded by Ahmet Selcuk Ozyurt in 2019. From IT strategy consulting and comprehensive technology roadmaps to the end-to-end development of scalable solutions, EdgeeTech Limited delivers a full-cycle software development services that adapt seamlessly to your project requirements and business needs. We deliver results."
-      name="description"
-    />
-
-    <!-- Favicon -->
-    <link href="./favicon.ico" rel="icon" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
-    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5" />
-    <meta name="msapplication-TileColor" content="#54e3d0" />
-    <meta name="theme-color" content="#ffffff" />
-
-    <!-- Google Font -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- CSS Libraries -->
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      rel="stylesheet"
-    />
-
-    <!-- Entry point for Vite -->
-    <script type="module" src="/src/main.js"></script>
+    <!-- @include head -->
+    <title>EdgeeTech — Software engineering for systems that have to work</title>
+    <meta name="description" content="EdgeeTech is a founder-led UK software engineering company. Architecture, full-stack delivery, cloud & DevOps and AI-assisted engineering — built on production experience since 2011." />
+    <link rel="canonical" href="https://edgee.tech/" />
+    <meta property="og:title" content="EdgeeTech — Software engineering for systems that have to work" />
+    <meta property="og:description" content="Founder-led UK software engineering. Production systems since 2011; AI-assisted delivery today. Makers of Taksim." />
+    <meta property="og:url" content="https://edgee.tech/" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "EdgeeTech Limited",
+        "alternateName": "EdgeeTech",
+        "url": "https://edgee.tech/",
+        "logo": "https://edgee.tech/android-chrome-512x512.png",
+        "email": "info@edgee.tech",
+        "telephone": "+44 7554 920397",
+        "foundingDate": "2019-06-17",
+        "founder": { "@type": "Person", "name": "Ahmet Selcuk Ozyurt", "url": "https://asozyurt.com" },
+        "address": { "@type": "PostalAddress", "addressLocality": "Cambridge", "addressCountry": "GB" },
+        "identifier": { "@type": "PropertyValue", "propertyID": "Companies House", "value": "12053376" },
+        "sameAs": ["https://github.com/edgeetech", "https://www.linkedin.com/company/edgeetech/"]
+      }
+    </script>
   </head>
-
   <body>
-    <div class="wrapper">
-      <!-- Header Start -->
-      <div class="header">
-        <div class="container-fluid">
-          <div class="row align-items-center">
-            <div class="col-lg-2">
-              <div class="brand">
-                <a href="index.html">
-                  <img
-                    src="img/logo2.png"
-                    alt="EdgeeTech Limited"
-                    style="width: 80px"
-                  />
-                </a>
-              </div>
+    <!-- @include header -->
+    <main id="main">
+      <section class="hero">
+        <div class="bg-grid" aria-hidden="true"></div>
+        <div class="aurora aurora--a" aria-hidden="true"></div>
+        <div class="aurora aurora--b" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div>
+            <a class="badge" href="https://taksim.edgee.tech" rel="noopener" data-reveal>
+              <span class="pill">New</span>
+              Taksim — our control plane for coding agents <span aria-hidden="true">→</span>
+            </a>
+            <h1 class="display" data-reveal style="--d: 1">
+              Software engineering for systems that <span class="serif gradient-text">have to work.</span>
+            </h1>
+            <p class="lede" data-reveal style="--d: 2">
+              EdgeeTech is a founder-led UK engineering company. Fifteen years of shipping banking platforms, SaaS products and cloud delivery — now applied to making AI-assisted engineering measurable and safe.
+            </p>
+            <div class="actions" data-reveal style="--d: 3">
+              <a class="btn btn--primary" href="/contact.html">Start a conversation <span class="arrow" aria-hidden="true">→</span></a>
+              <a class="btn" href="/work.html">See our work</a>
             </div>
-            <div class="col-lg-4">
-              <p
-                style="
-                  font-weight: bold;
-                  font-family: Copperplate Gothic Light;
-                  font-size: x-large;
-                  text-align: center;
-                "
-              >
-                EDGEETECH LIMITED
-              </p>
-              <p style="text-align: center; font-size: small">
-                Expert software solutions for a more intuitive, efficient world
-              </p>
-            </div>
-            <div class="col-lg-6">
-              <div class="topbar">
-                <div class="topbar-col">
-                  <a href="tel:+447554920397"
-                    ><i class="fa fa-phone-alt"></i>+44 7554 920397</a
-                  >
-                </div>
-                <div class="topbar-col">
-                  <a
-                    href="&#109;a&#105;l&#116;&#111;:&#105;&#110;&#102;&#111;&#64;&#101;&#100;&#103;&#101;&#101;&#46;&#116;&#101;&#99;&#104;"
-                    ><i class="fa fa-envelope"></i>info@edgee.tech</a
-                  >
-                </div>
-                <div class="topbar-col">
-                  <div class="topbar-social">
-                    <a href="https://www.github.com/edgeetech/" target="_blank"
-                      ><i class="fab fa-github"></i
-                    ></a>
-                    <a
-                      href="https://www.linkedin.com/company/edgeetech/"
-                      target="_blank"
-                      ><i class="fab fa-linkedin"></i
-                    ></a>
-                    <a
-                      href="https://www.instagram.com/edgeetech"
-                      target="_blank"
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-                    <a href="https://www.facebook.com/edgeetech" target="_blank"
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <div class="navbar navbar-expand-lg bg-light navbar-light">
-                <a href="#" class="navbar-brand">MENU</a>
-                <button
-                  type="button"
-                  class="navbar-toggler"
-                  data-toggle="collapse"
-                  data-target="#navbarCollapse"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
+          </div>
 
-                <div
-                  class="collapse navbar-collapse justify-content-between"
-                  id="navbarCollapse"
-                >
-                  <div class="navbar-nav ml-auto">
-                    <a href="index.html" class="nav-item nav-link active"
-                      >Home</a
-                    >
-                    <a href="about.html" class="nav-item nav-link">About Us</a>
-                    <a href="services.html" class="nav-item nav-link"
-                      >Services</a
-                    >
-                    <a href="portfolio.html" class="nav-item nav-link"
-                      >Portfolio</a
-                    >
-                    <a href="contact.html" class="nav-item nav-link"
-                      >Contact Us</a
-                    >
-                  </div>
-                </div>
+          <div class="hero-visual" data-reveal style="--d: 2">
+            <svg class="hero-mark" viewBox="-20 -20 1776 2040" aria-hidden="true">
+              <polygon class="mark-pink" pathLength="1" points="356,410 1017,0 1017,223 532,524" />
+              <polygon class="mark-ink" pathLength="1" points="708,643 1370,230 1370,435 880,750" />
+              <polygon class="mark-blue" pathLength="1" points="0,448 868,979 1736,448 1736,1446 870,2000 0,1462 0,1236 875,1771 1540,1353 1540,783 859,1205 0,667" />
+              <polygon class="mark-ink" pathLength="1" points="0,850 868,1387 1362,1073 1362,1289 868,1608 0,1056" />
+            </svg>
+            <figure class="terminal" data-animate>
+              <div class="terminal-bar" aria-hidden="true"><i></i><i></i><i></i><span>~/edgeetech — zsh</span></div>
+              <figcaption class="visually-hidden">Our engineering history, written as a git log.</figcaption>
+              <div class="terminal-body">
+                <span class="line"><span class="t-prompt">$</span> <span class="t-cmd">git log --oneline --reverse</span></span>
+                <span class="line"><span class="t-hash">a1c0de1</span> <span class="t-year">2011</span> banking platforms to production</span>
+                <span class="line"><span class="t-hash">b4e7ec2</span> <span class="t-year">2014</span> corporate cash management</span>
+                <span class="line"><span class="t-hash">c7d3a90</span> <span class="t-year">2017</span> CRM &amp; identity infrastructure</span>
+                <span class="line"><span class="t-hash">e19f00d</span> <span class="t-year">2019</span> <span class="t-ok">feat:</span> EdgeeTech Ltd founded</span>
+                <span class="line"><span class="t-hash">f20b7a4</span> <span class="t-year">2020</span> UK SaaS tax platform, micro-FEs</span>
+                <span class="line"><span class="t-hash">9a1c3e5</span> <span class="t-year">2025</span> AI-assisted delivery &amp; MCP</span>
+                <span class="line"><span class="t-hash">0926aa1</span> <span class="t-year">2026</span> <span class="t-ok">release:</span> Taksim v0.1</span>
+                <span class="line"><span class="t-prompt">$</span> <span class="caret" aria-hidden="true"></span></span>
               </div>
-            </div>
+            </figure>
           </div>
         </div>
-      </div>
-      <!-- Header End -->
+      </section>
 
-      <!-- Hero Start -->
-      <div class="hero">
-        <div class="container-fluid">
-          <div class="row align-items-center">
-            <div class="col-md-6">
-              <h2>Software Development</h2>
-              <h2><span>IT</span> Consultancy</h2>
-              <p>Bespoke Services for Your New & Ongoing Projects</p>
-              <a class="btn" href="services.html">Explore Services</a>
-            </div>
-            <div class="col-md-6">
-              <img src="img/meta-cloud.jpg" alt="Image" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Hero End -->
-
-      <!-- About Start -->
-      <div class="about">
-        <div class="container-fluid">
-          <div class="row align-items-center">
-            <div class="col-md-6">
-              <img src="img/meeting.jpg" alt="Image" />
-            </div>
-            <div class="col-md-6">
-              <h2 class="section-title">Learn About Us</h2>
-              <p style="text-align: justify">
-                We help companies build custom software solutions. We empower
-                businesses to win the market by delivering ingenious and
-                custom-made software. We provide a full cycle of software
-                development services - from gathering the requirements to
-                implementation of innovative solutions.
-              </p>
-              <p style="text-align: justify">
-                Software solutions tailored to customer needs is our forte, we
-                have a range of packages to suit every budget and requirement
-                and all include the full compass of our support services, from
-                helping with device configuration through to over-the-air
-                upgrades.
-              </p>
-              <p style="text-align: justify">
-                You will have the vision of what your end system will look like
-                and we can provide the knowledge, technical know-how and
-                architectural proposal. Fully utilise our years of experience
-                and let us truly act as an integrated member of your design and
-                support team.
-              </p>
-
-              <a class="btn" href="/about.html">Learn More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- About End -->
-
-      <!-- Service Start -->
-      <div class="service">
-        <div class="container-fluid">
-          <div class="section-header">
-            <h2>Our Services</h2>
-            <p>We deliver results.</p>
-          </div>
-          <div class="row">
-            <div class="col-lg-3 col-md-6">
-              <div class="service-item">
-                <h3>IT Consultancy</h3>
-                <img src="img/service-1.png" alt="Service" />
-                <p>
-                  From strategy and planning to implementation and support, we
-                  can help you navigate the constantly evolving world of
-                  technology
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="service-item">
-                <h3>Web Applications</h3>
-                <img src="img/web-design.png" alt="Service" />
-                <p>
-                  From idea to launch, we work closely with you to understand
-                  your business needs and develop a solution that meets your
-                  requirements
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="service-item">
-                <h3>Cloud Development</h3>
-                <img src="img/service-2.png" alt="Service" />
-                <p>
-                  By leveraging the power of the cloud, we can design custom
-                  solutions that can handle any amount of traffic or data
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="service-item">
-                <h3>DevOps</h3>
-                <img src="img/devops.png" alt="Service" style="padding: 15px" />
-                <p>
-                  Our DevOps service helps businesses of all sizes accelerate
-                  their software delivery process and improve the reliability of
-                  their systems
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Service End -->
-
-      <!-- FAQs Start -->
-      <div class="faqs" id="faqs">
-        <div class="container-fluid">
-          <div class="row align-items-center">
-            <div class="col-md-6">
-              <h2 class="section-title">Frequently Asked Questions</h2>
-              <div id="accordion">
-                <div class="card">
-                  <div class="card-header">
-                    <a
-                      class="card-link collapsed"
-                      data-toggle="collapse"
-                      href="#collapseOne"
-                      aria-expanded="true"
-                    >
-                      1. What can you help me with?
-                    </a>
-                  </div>
-                  <div
-                    id="collapseOne"
-                    class="collapse show"
-                    data-parent="#accordion"
-                  >
-                    <div class="card-body">
-                      With whatever we can. We'll be happy to outline project
-                      specification, prepare wireframes, details concerning
-                      integrations with external services, API documentation,
-                      required features list. In terms of project development we
-                      prepare server-side architecture, front end, back end,
-                      graphic and UX design
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header">
-                    <a
-                      class="card-link"
-                      data-toggle="collapse"
-                      href="#collapseTwo"
-                    >
-                      2. How do you guarantee the last product quality?
-                    </a>
-                  </div>
-                  <div
-                    id="collapseTwo"
-                    class="collapse"
-                    data-parent="#accordion"
-                  >
-                    <div class="card-body">
-                      We evaluate the result frequently (usually two weeks), we
-                      test our work (we conduct both development and acceptance
-                      tests), we present it to you, we apply your feedback so
-                      you know you get what you are paying for.
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header">
-                    <a
-                      class="card-link"
-                      data-toggle="collapse"
-                      href="#collapseThree"
-                    >
-                      3. I want to be involved in the app development process,
-                      do you have a problem with that?
-                    </a>
-                  </div>
-                  <div
-                    id="collapseThree"
-                    class="collapse"
-                    data-parent="#accordion"
-                  >
-                    <div class="card-body">
-                      Not at all! We want you to be sure you'll receive the
-                      product you desire. From the planning stage to each
-                      finished version, we invite you to evaluate and improve
-                      our work. Our philosophy is to work with the client, not
-                      merely finish given tasks. We are always ready to listen
-                      and communicate.
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header">
-                    <a
-                      class="card-link"
-                      data-toggle="collapse"
-                      href="#collapseFour"
-                    >
-                      4. Why should I choose you and not hire my own software
-                      development team?
-                    </a>
-                  </div>
-                  <div
-                    id="collapseFour"
-                    class="collapse"
-                    data-parent="#accordion"
-                  >
-                    <div class="card-body">
-                      Hiring your own software developers can be a really smart
-                      choice, however, recruitment process is time-consuming and
-                      the costs of keeping an in-house programming team are very
-                      high. You'll probably need to employ your own software
-                      engineers sooner or later but hiring us can help you save
-                      a lot of money and time (which is basically the same in a
-                      business project).
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <a class="btn" href="contact.html">Ask more</a>
-            </div>
-            <div class="col-md-6">
-              <img src="img/faq-color2.jpg" alt="Image" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- FAQs End -->
-
-      <!-- Tech Stack Start -->
-      <div class="testimonial">
-        <div class="row">
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="img/reactjs.png"
-              style="width: 100%"
-              alt="React JS"
-            />
-          </div>
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="img/nextjs.png"
-              style="width: 100%"
-              alt="Next JS"
-            />
-          </div>
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="img/nodejs.png"
-              style="width: 100%"
-              alt="Node JS"
-            />
-          </div>
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="img/csharpdotnet.png"
-              style="width: 100%"
-              alt="C# DotNet"
-            />
-          </div>
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="img/aws.png"
-              style="width: 100%"
-              alt="AWS"
-            />
-          </div>
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="img/saas.jpg"
-              style="width: 100%"
-              alt="SaaS"
-            />
-          </div>
-        </div>
-      </div>
-      <!-- Tech Stack End -->
-
-      <!-- News Start -->
-      <div class="news">
-        <div class="container-fluid">
-          <div class="row align-items-center">
-            <div class="col-md-6">
-              <img src="img/camel.png" alt="Image" />
-            </div>
-            <div class="col-md-6">
-              <h2 class="section-title">Read Latest News</h2>
-              <p style="text-align: justify">
-                To stay up-to-date with the latest news and updates from our
-                company, be sure to follow us on social media! You can find
-                links to our social media accounts at the bottom of our website
-                homepage. Simply click on the icons for the platforms you use
-                and you'll be redirected to our profiles. There, you can follow
-                us to receive notifications whenever we post new content, such
-                as blog articles, product announcements, and special offers.
-              </p>
-              <p style="text-align: justify">
-                By following us on social media, you'll never miss out on what's
-                happening at our company and you'll have access to exclusive
-                content that isn't available on our website. Don't wait, start
-                following us today!
-              </p>
-              <a class="btn" href="https://www.linkedin.com/company/edgeetech/">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- News End -->
-
-      <!-- Footer Start -->
-      <div class="footer">
+      <section class="section--tight" aria-label="Track record">
         <div class="container">
-          <div class="row">
-            <div class="col-md-5">
-              <div class="footer-about">
-                <h2>EdgeeTech Limited</h2>
+          <div class="stats" data-reveal>
+            <div class="stat">
+              <span class="stat-value"><span data-count="15">15</span><span class="unit">yrs</span></span>
+              <p>Production software engineering, since 2011</p>
+            </div>
+            <div class="stat">
+              <span class="stat-value"><span data-count="1000">1,000</span><span class="unit">+</span></span>
+              <p>Bank branches running platform software we built</p>
+            </div>
+            <div class="stat">
+              <span class="stat-value"><span data-count="15000">15,000</span><span class="unit">+</span></span>
+              <p>Users on those banking systems</p>
+            </div>
+            <div class="stat">
+              <span class="stat-value"><span data-count="40">40</span><span class="unit">+</span></span>
+              <p>Tenants on shared identity &amp; CRM infrastructure</p>
+            </div>
+          </div>
+          <p class="stats-note">Figures from the founder's engineering career; the banking work predates EdgeeTech's incorporation in 2019.</p>
+        </div>
+      </section>
 
-                <p>
-                  Understanding The Technologies & Delivering The Skills That
-                  Add Value To Your Team
-                </p>
-                <br />
+      <section class="section--marquee" aria-label="Technologies we work with">
+        <div class="marquee">
+          <ul class="marquee-track">
+            <li class="chip">C# / .NET</li>
+            <li class="chip">ASP.NET Core</li>
+            <li class="chip">React</li>
+            <li class="chip">TypeScript</li>
+            <li class="chip">Node.js</li>
+            <li class="chip">single-spa</li>
+            <li class="chip">Module Federation</li>
+            <li class="chip">AWS</li>
+            <li class="chip">Docker</li>
+            <li class="chip">Kubernetes</li>
+            <li class="chip">Helm</li>
+            <li class="chip">GitHub Actions</li>
+            <li class="chip">Playwright</li>
+            <li class="chip">SonarCloud</li>
+            <li class="chip">Claude Code</li>
+            <li class="chip">Codex</li>
+            <li class="chip">MCP</li>
+          </ul>
+          <ul class="marquee-track" aria-hidden="true">
+            <li class="chip">C# / .NET</li>
+            <li class="chip">ASP.NET Core</li>
+            <li class="chip">React</li>
+            <li class="chip">TypeScript</li>
+            <li class="chip">Node.js</li>
+            <li class="chip">single-spa</li>
+            <li class="chip">Module Federation</li>
+            <li class="chip">AWS</li>
+            <li class="chip">Docker</li>
+            <li class="chip">Kubernetes</li>
+            <li class="chip">Helm</li>
+            <li class="chip">GitHub Actions</li>
+            <li class="chip">Playwright</li>
+            <li class="chip">SonarCloud</li>
+            <li class="chip">Claude Code</li>
+            <li class="chip">Codex</li>
+            <li class="chip">MCP</li>
+          </ul>
+        </div>
+      </section>
 
-                <p>
-                  <i class="fa fa-map-marker-alt"></i>London/Cambridge, United
-                  Kingdom
-                </p>
-                <p>
-                  <a href="tel:+447554920397"
-                    ><i class="fa fa-phone-alt"></i>+44 7554 920397</a
-                  >
-                </p>
-                <p>
-                  <a
-                    href="&#109;a&#105;l&#116;&#111;:&#105;&#110;&#102;&#111;&#64;&#101;&#100;&#103;&#101;&#101;&#46;&#116;&#101;&#99;&#104;"
-                    ><i class="fa fa-envelope"></i>info@edgee.tech</a
-                  >
-                </p>
-                <img
-                  src="img/logo.png"
-                  alt="EdgeeTech Limited"
-                  style="
-                    width: 60px;
-                    background-color: white;
-                    box-shadow: inset 1px 1px 20px 0px;
-                    border-radius: 15px;
-                  "
-                />
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow" data-reveal><span class="index">01 /</span> What we do</p>
+              <h2 class="h2" data-reveal>Senior engineering, <span class="serif">end to end.</span></h2>
+            </div>
+            <p class="lede" data-reveal>Four things we have done for years and still do every week. No outsourced bench, no juniors learning on your system — you work with the engineer doing the work.</p>
+          </div>
+          <div class="bento">
+            <a class="card card--link span-3" href="/services.html#architecture" data-reveal>
+              <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 9 5-9 5-9-5 9-5Z" /><path d="m3 12 9 5 9-5" /><path d="m3 17 9 5 9-5" /></svg></div>
+              <h3 class="h3">Architecture &amp; full-stack engineering</h3>
+              <p>.NET back ends, React and TypeScript front ends, micro-frontend estates and the design systems that hold them together.</p>
+              <span class="card-foot text-link">Architecture &amp; delivery <span class="arrow" aria-hidden="true">→</span></span>
+            </a>
+            <a class="card card--link span-3" href="/services.html#cloud" data-reveal style="--d: 1">
+              <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 19a4.5 4.5 0 1 0-1.4-8.78A6 6 0 0 0 4.5 12.5 3.5 3.5 0 0 0 6 19h11.5Z" /></svg></div>
+              <h3 class="h3">Cloud &amp; DevOps</h3>
+              <p>AWS, containers and Kubernetes, with CI/CD pipelines that make releasing boring — in the good way.</p>
+              <span class="card-foot text-link">Cloud &amp; delivery pipelines <span class="arrow" aria-hidden="true">→</span></span>
+            </a>
+            <a class="card card--link span-4" href="/services.html#ai" data-reveal>
+              <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1" /><circle cx="12" cy="12" r="3" /></svg></div>
+              <h3 class="h3">AI-assisted engineering</h3>
+              <p>Bringing Claude Code, Codex and MCP into real teams: agent instructions, automated review, test generation and the guardrails that keep quality where it was. We use this daily and build tools for it.</p>
+              <span class="card-foot text-link">AI in the delivery loop <span class="arrow" aria-hidden="true">→</span></span>
+            </a>
+            <a class="card card--link span-2" href="/services.html#modernisation" data-reveal style="--d: 1">
+              <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a9 9 0 0 1-15.3 6.4L3 16" /><path d="M3 12a9 9 0 0 1 15.3-6.4L21 8" /><path d="M21 3v5h-5M3 21v-5h5" /></svg></div>
+              <h3 class="h3">Modernisation</h3>
+              <p>Moving legacy financial systems to modern .NET, cloud services and automated pipelines — without stopping the business.</p>
+              <span class="card-foot text-link">Modernisation <span class="arrow" aria-hidden="true">→</span></span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="products">
+        <div class="bg-grid" aria-hidden="true"></div>
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow" data-reveal><span class="index">02 /</span> What we build</p>
+              <h2 class="h2" data-reveal>Tools we needed, <span class="serif">so we built them.</span></h2>
+            </div>
+            <p class="lede" data-reveal>Our products come out of our own delivery work with coding agents. They run locally, state their limits plainly and we use them ourselves every day.</p>
+          </div>
+
+          <article class="product">
+            <div class="product-copy">
+              <div class="product-meta">
+                <span class="tag tag--live">● Live · v0.1</span>
+                <span class="tag">Windows · CLI</span>
+                <span class="tag">Free for personal use</span>
+              </div>
+              <h3>Taksim</h3>
+              <p>An intelligence control plane for coding agents. Keep the agents your developers already use; Taksim applies policy, quality and budget constraints, verifies outcomes with engineering evidence and uses stronger models only when the work requires it.</p>
+              <ul class="checklist">
+                <li><strong>Claude Code, Codex, Devin</strong> — managed sessions and history import</li>
+                <li><strong>Local-first</strong> — runs on 127.0.0.1; raw prompts and code stay out of its telemetry</li>
+                <li><strong>Evidence, not claims</strong> — builds, tests and checks decide what counts as verified</li>
+              </ul>
+              <div class="actions">
+                <a class="btn btn--primary" href="https://taksim.edgee.tech" rel="noopener">Visit taksim.edgee.tech <span class="arrow" aria-hidden="true">↗</span></a>
+                <a class="btn" href="/products.html#taksim">How it works</a>
               </div>
             </div>
-            <div class="col-md-3">
-              <div class="footer-link">
-                <h2>Menu</h2>
-                <a href="about.html">About Us</a>
-                <a href="services.html">Services</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="index.html#faqs">FAQs</a>
-                <a href="contact.html">Contact Us</a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="row">
-                <div class="footer-link">
-                  <h2>Social Media</h2>
-                  <a href="https://www.instagram.com/edgeetech" target="_blank"
-                    ><i class="fab fa-instagram"></i> Instagram</a
-                  >
-                  <a href="https://www.facebook.com/edgeetech" target="_blank"
-                    ><i class="fab fa-facebook-f"></i> Facebook
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/company/edgeetech/"
-                    target="_blank"
-                    ><i class="fab fa-linkedin"></i> LinkedIn
-                  </a>
-                  <a href="https://www.github.com/edgeetech/" target="_blank"
-                    ><i class="fab fa-github"></i> Github
-                  </a>
+            <div>
+              <div class="receipt" role="img" aria-label="Illustrative Taksim session receipt showing a verified session with build and tests passing.">
+                <div class="receipt-head"><span>Session receipt</span><span class="verified">✓ Verified</span></div>
+                <div class="receipt-cmd"><span class="t-prompt">$</span>taksim claude</div>
+                <div class="receipt-body">
+                  <div class="receipt-row"><span>Policy scope</span><span>Allowed</span></div>
+                  <div class="receipt-row"><span>Quality requirement</span><span>High</span></div>
+                  <div class="receipt-row"><span>Selection authority</span><span>Taksim</span></div>
+                  <div class="receipt-row"><span>Evidence</span><span class="t-ok">Build · Tests · Checks</span></div>
+                  <div class="meter" aria-hidden="true"><i style="--w: 53%"></i></div>
                 </div>
               </div>
+              <p class="illustrative">Illustrative example</p>
+            </div>
+          </article>
+
+          <article class="product product--reverse">
+            <div class="product-copy">
+              <div class="product-meta">
+                <span class="tag tag--accent">Source-available</span>
+                <span class="tag">Claude Code plugin</span>
+                <span class="tag">Node · SQLite</span>
+              </div>
+              <h3>AgentBoard</h3>
+              <p>A local kanban where AI agents do the work and a human approves it. PM, worker and reviewer roles move tasks across the board, with a cost and audit trail for every run.</p>
+              <div class="actions">
+                <a class="btn" href="https://github.com/edgeetech/agentboard" rel="noopener">View on GitHub <span class="arrow" aria-hidden="true">↗</span></a>
+                <a class="btn" href="/products.html#open-source">All our tools</a>
+              </div>
+            </div>
+            <div class="kanban" role="img" aria-label="Illustration of an AgentBoard kanban board with columns for To do, Agent, Review and Done.">
+              <div class="kanban-col">
+                <h4>To do</h4>
+                <div class="k-card k-card--moving" data-role="pm">Add retry to webhook<small>pm · planned</small></div>
+                <div class="k-card" data-role="pm">Split invoice module<small>pm · planned</small></div>
+              </div>
+              <div class="kanban-col">
+                <h4>Agent</h4>
+                <div class="k-card" data-role="worker">Migrate auth tests<small>worker · running</small></div>
+              </div>
+              <div class="kanban-col">
+                <h4>Review</h4>
+                <div class="k-card" data-role="review">Fix flaky e2e<small>reviewer · checks</small></div>
+              </div>
+              <div class="kanban-col">
+                <h4>Done</h4>
+                <div class="k-card" data-role="human">Bump Node to 22<small>human · approved</small></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="clients">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow" data-reveal><span class="index">03 /</span> Track record</p>
+              <h2 class="h2" data-reveal>Trusted with <span class="serif">production.</span></h2>
+            </div>
+            <p class="lede" data-reveal>Engagements delivered through EdgeeTech sit alongside the founder's earlier work in banking. We keep the two clearly separated.</p>
+          </div>
+          <p class="group-label">EdgeeTech engagements</p>
+          <div class="wordmarks" data-reveal>
+            <div class="wordmark"><strong>Bright Software Group</strong><span>SaaS tax &amp; accounting · 2020–now</span></div>
+            <div class="wordmark"><strong>Blackhawk Network Europe</strong><span>Payments · 2019–2020</span></div>
+            <div class="wordmark"><strong>zero2hero</strong><span>Consumer platform · 2020</span></div>
+            <div class="wordmark"><strong>ITIS Accountancy</strong><span>Website · web build</span></div>
+          </div>
+          <p class="group-label">Founder's earlier career</p>
+          <div class="wordmarks" data-reveal>
+            <div class="wordmark"><strong>VakıfBank</strong><span>Application infrastructure · 2011–2014</span></div>
+            <div class="wordmark"><strong>QNB Finansbank</strong><span>Cash management, via IBTech · 2014–2017</span></div>
+            <div class="wordmark"><strong>DenizBank · Sberbank</strong><span>CRM infrastructure, via Intertech · 2017–2019</span></div>
+          </div>
+          <div class="actions">
+            <a class="text-link" href="/work.html">Read the case studies <span class="arrow" aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt">
+        <div class="container">
+          <div class="section-head section-head--stack">
+            <p class="eyebrow" data-reveal><span class="index">04 /</span> How we work</p>
+            <p class="statement" data-reveal>New tools earn their place by solving real problems. <span class="muted">They don't replace architecture, judgement or responsibility.</span></p>
+          </div>
+          <div class="principles">
+            <article class="principle" data-reveal>
+              <span>01</span>
+              <h3>Understand the system</h3>
+              <p>Constraints, risks and decision boundaries made visible before anything is chosen.</p>
+            </article>
+            <article class="principle" data-reveal style="--d: 1">
+              <span>02</span>
+              <h3>Production over demos</h3>
+              <p>Useful software has to hold up long after launch day. We build for operation and change.</p>
+            </article>
+            <article class="principle" data-reveal style="--d: 2">
+              <span>03</span>
+              <h3>AI where it helps</h3>
+              <p>Agents are powerful team-mates. We use them deliberately, with evidence and review in the loop.</p>
+            </article>
+            <article class="principle" data-reveal style="--d: 3">
+              <span>04</span>
+              <h3>Claims you can check</h3>
+              <p>Scope, results and limits kept concrete enough to stand behind — on this site too.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="cta" data-reveal>
+            <h2 class="h2">Building something that <span class="serif">has to work?</span></h2>
+            <p class="lede">Tell us about the system, the constraint or the decision you're stuck on. You'll hear back from an engineer, not a sales team.</p>
+            <div class="actions">
+              <a class="btn btn--primary" href="/contact.html">Start a conversation <span class="arrow" aria-hidden="true">→</span></a>
+              <a class="btn" href="/about.html">About EdgeeTech</a>
             </div>
           </div>
         </div>
-        <div class="container copyright">
-          <div class="row">
-            <div class="col-md-10">
-              <p>
-                &copy;
-                <a href="https://www.edgeetech.co.uk">EdgeeTech Ltd</a> 2023,
-                Registered in England & Wales. EdgeeTech Limited (Registered
-                Number:
-                <a
-                  href="https://find-and-update.company-information.service.gov.uk/company/12053376"
-                  >12053376</a
-                >). All Right Reserved.
-                <a
-                  data-toggle="tooltip"
-                  data-placement="top"
-                  data-delay="0"
-                  href="doc/edgeetech-ico-registration-certificate.pdf"
-                  target="_blank"
-                >
-                  <img
-                    title="EdgeeTech ICO Registration Certificate"
-                    src="img/logo-ico.png"
-                    alt="ico"
-                    style="width: 30px"
-                  />
-                </a>
-              </p>
-            </div>
-            <div class="col-md-2">
-              <p style="font-size: 5px">
-                Template By <a href="https://htmlcodex.com">HTML Codex</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Footer End -->
-    </div>
+      </section>
+    </main>
+    <!-- @include footer -->
   </body>
 </html>

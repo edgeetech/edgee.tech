@@ -1,100 +1,36 @@
-# EdgeeTech-Website
+# edgee.tech
 
-Company Website of EdgeeTech Software Technologies
+Company website of EdgeeTech Limited — https://edgee.tech
 
-## 📋 Project Overview
+Static multi-page site built with Vite and deployed to GitHub Pages. No framework and no runtime dependencies: plain HTML, one stylesheet and a small vanilla JS module for theme switching, the mobile menu and scroll animations.
 
-A modern, optimized company website built with Vite and deployed to GitHub Pages. This site showcases EdgeeTech's software consultancy services.
-
-## 🚀 Quick Start
-
-### Development
+## Development
 
 ```bash
-# Install dependencies
 npm install
-
-# Start development server
-npm run dev
-
-# Open http://localhost:5173 in your browser
+npm run dev       # http://localhost:5173
+npm run build     # outputs dist/
+npm run preview   # serves dist/
 ```
 
-### Production Build
-
-```bash
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-```
-
-## 📁 Project Structure
+## Structure
 
 ```
-edgee.tech/
-├── src/
-│   ├── main.js              # Entry point - loads all CSS and JS
-│   ├── assets/
-│   │   ├── css/             # Stylesheets
-│   │   ├── js/              # JavaScript files
-│   │   ├── images/          # Images and icons
-│   │   └── lib/             # Third-party libraries
-│   └── pages/               # HTML pages
-├── dist/                    # Production build output
-├── index.html               # Main HTML template
-├── package.json             # Project dependencies
-├── vite.config.js           # Vite configuration
-└── .github/workflows/       # CI/CD automation
+├── *.html              # one file per page (Vite inputs are picked up automatically)
+├── partials/           # head, header and footer, stitched into every page at build time
+├── src/main.js         # fonts, styles and page behaviour
+├── src/styles/main.css # design tokens (dark/light), components, animations
+├── public/             # copied as-is: CNAME, favicons, robots.txt, sitemap.xml, llms.txt, docs
+└── .github/workflows/  # build on PRs, deploy main to GitHub Pages
 ```
 
-## 🔧 Technologies Used
+Pages include shared markup with `<!-- @include header -->`; the matching nav link gets `aria-current="page"` automatically (see `vite.config.js`).
 
-- **Build Tool:** Vite
-- **CSS:** Bootstrap 4.4.1, Custom styles
-- **JavaScript:** jQuery, Bootstrap plugins, Owl Carousel, Slick, Lightbox
-- **Deployment:** GitHub Pages
-- **CI/CD:** GitHub Actions
+## Notes
 
-## 🌐 Deployment
+- Fonts (Geist, Geist Mono, Instrument Serif) are self-hosted via Fontsource.
+- All motion respects `prefers-reduced-motion`.
+- The contact form has no backend; it composes an email in the visitor's mail client.
+- `public/portfolio.html` redirects the old portfolio URL to `/work.html`.
 
-The site automatically deploys to GitHub Pages on every push to the `main` branch.
-
-### GitHub Pages Configuration
-
-- **Production URL:** `https://edgee.tech/`
-- **Automatic Deployment:** Enabled via GitHub Actions
-- **Custom Domain:** Published via `public/CNAME`
-
-## 📝 Configuration
-
-### Update Site Title and Meta Tags
-
-Edit `index.html` to customize:
-- Page title
-- Meta description
-- Favicon paths
-
-### Update Base URL (if needed)
-
-In `vite.config.js`:
-```javascript
-export default defineConfig({
-  base: './',  // Use '/' or './' for a custom domain at the root
-  // ...
-});
-```
-
-## 🔍 Features
-
-- ✅ Fast development with Vite HMR
-- ✅ Optimized production builds
-- ✅ Automatic asset bundling and minification
-- ✅ Mobile responsive design
-- ✅ SEO optimized
-- ✅ Automated GitHub Pages deployment
-
-## 📜 License
-
-All rights reserved - EdgeeTech Limited
+All rights reserved — EdgeeTech Limited.

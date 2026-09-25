@@ -1,0 +1,21 @@
+# EdgeeTech
+
+EdgeeTech Limited is a founder-led software engineering company registered in England & Wales (company number 12053376), based in Cambridge and London, UK. Founded in 2019 by Ahmet Selcuk Ozyurt.
+
+## Services
+- Software architecture and full-stack engineering: .NET, React/TypeScript, micro-frontends (single-spa, Module Federation), design systems, APIs.
+- Cloud and DevOps: AWS, Docker, Kubernetes/Helm on EKS, CI/CD with GitHub Actions and Bitbucket Pipelines.
+- AI-assisted engineering: adopting Claude Code and Codex in teams, MCP integrations, automated review, test generation, governance.
+- Modernisation of legacy financial and enterprise systems.
+
+## Products
+- Taksim: intelligence control plane for coding agents. https://taksim.edgee.tech
+- AgentBoard (source-available, Elastic License 2.0): https://github.com/edgeetech/agentboard
+- claude-notifier (MIT): https://github.com/edgeetech/claude-notifier
+
+## Pages
+- Services: https://edgee.tech/services.html
+- Products: https://edgee.tech/products.html
+- Work: https://edgee.tech/work.html
+- About: https://edgee.tech/about.html
+- Contact: https://edgee.tech/contact.html (info@edgee.tech)
