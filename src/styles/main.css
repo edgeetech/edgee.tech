@@ -839,6 +839,11 @@ a.badge:hover {
   scrollbar-width: none;
 }
 
+.terminal-body--shot {
+  padding: 0;
+  line-height: 0;
+}
+
 .terminal-body .line {
   display: block;
   white-space: pre;
