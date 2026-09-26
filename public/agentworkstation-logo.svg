@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>Agent Workstation</title>
+  <style>.ink{fill:#2d2d2d}@media (prefers-color-scheme:dark){.ink{fill:#e8ecf2}}</style>
+  <path fill="#e04a7e" d="M4 10H28.8L13.8 54z"/>
+  <path fill="#0293de" d="M17 54 32 10 47 54z"/>
+  <path class="ink" d="M60 10H35.2L50.2 54z"/>
+</svg>
