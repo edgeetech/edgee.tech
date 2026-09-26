@@ -2371,3 +2371,10 @@ a.channel:hover {
 .notfound .actions {
   justify-content: center;
 }
+
+.product-logo {
+  width: 1.15em;
+  height: 1.15em;
+  margin-right: 0.45em;
+  vertical-align: -0.2em;
+}
