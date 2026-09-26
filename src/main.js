@@ -143,12 +143,13 @@ function initTerminals() {
 }
 
 function initCopy() {
-  document.querySelectorAll('[data-copy]').forEach((button) => {
+  document.querySelectorAll('[data-copy-from]').forEach((button) => {
     button.addEventListener('click', async (e) => {
       e.preventDefault();
       const original = button.getAttribute('aria-label');
+      const source = document.querySelector(button.dataset.copyFrom);
       try {
-        await navigator.clipboard.writeText(button.dataset.copy);
+        await navigator.clipboard.writeText(source.href.replace(/^mailto:/, ''));
         button.setAttribute('aria-label', 'Copied');
         button.dataset.copied = 'true';
       } catch {

@@ -18,4 +18,4 @@ EdgeeTech Limited is a founder-led software engineering company registered in En
 - Products: https://edgee.tech/products.html
 - Work: https://edgee.tech/work.html
 - About: https://edgee.tech/about.html
-- Contact: https://edgee.tech/contact.html (info@edgee.tech)
+- Contact: https://edgee.tech/contact.html
