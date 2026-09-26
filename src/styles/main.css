@@ -843,6 +843,11 @@ a.badge:hover {
   padding: 0;
   line-height: 0;
 }
+.terminal-body--shot img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 .terminal-body .line {
   display: block;
