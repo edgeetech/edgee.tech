@@ -11,6 +11,7 @@ EdgeeTech Limited is a founder-led software engineering company registered in En
 ## Products
 - Taksim: intelligence control plane for coding agents. https://taksim.edgee.tech
 - AgentBoard (source-available, Elastic License 2.0): https://github.com/edgeetech/agentboard
+- Agent Workstation (open source, Windows desktop hub for specialist AI agents, maintenance mode): https://github.com/edgeetech/agentworkstation
 - claude-notifier (MIT): https://github.com/edgeetech/claude-notifier
 
 ## Pages
