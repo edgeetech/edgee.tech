@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://edgee.tech/sitemap.xml
+Sitemap: https://www.edgee.tech/sitemap.xml
