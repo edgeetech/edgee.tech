@@ -14,8 +14,8 @@ EdgeeTech Limited is a founder-led software engineering company registered in En
 - claude-notifier (MIT): https://github.com/edgeetech/claude-notifier
 
 ## Pages
-- Services: https://edgee.tech/services.html
-- Products: https://edgee.tech/products.html
-- Work: https://edgee.tech/work.html
-- About: https://edgee.tech/about.html
-- Contact: https://edgee.tech/contact.html
+- Services: https://www.edgee.tech/services.html
+- Products: https://www.edgee.tech/products.html
+- Work: https://www.edgee.tech/work.html
+- About: https://www.edgee.tech/about.html
+- Contact: https://www.edgee.tech/contact.html
