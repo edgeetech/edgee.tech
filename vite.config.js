@@ -33,7 +33,7 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
     emptyOutDir: true,
-    rollupOptions: {
+    rolldownOptions: {
       input: Object.fromEntries(pages.map((f) => [f.replace('.html', ''), resolve(root, f)])),
     },
   },

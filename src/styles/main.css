@@ -708,32 +708,6 @@ a.badge:hover {
   color: oklch(0.15 0.02 255);
 }
 
-.pulse {
-  position: relative;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--ok);
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .pulse::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    border-radius: 50%;
-    background: inherit;
-    animation: pulse 2s var(--ease) infinite;
-  }
-}
-
-@keyframes pulse {
-  to {
-    transform: scale(3);
-    opacity: 0;
-  }
-}
-
 .hero-grid > *,
 .product > *,
 .service > *,
@@ -1205,9 +1179,6 @@ a.badge:hover {
 .span-4 {
   grid-column: span 4;
 }
-.span-6 {
-  grid-column: span 6;
-}
 
 @media (max-width: 960px) {
   .bento {
@@ -1218,9 +1189,6 @@ a.badge:hover {
   .span-4 {
     grid-column: span 1;
   }
-  .span-6 {
-    grid-column: span 2;
-  }
 }
 
 @media (max-width: 640px) {
@@ -1229,8 +1197,7 @@ a.badge:hover {
   }
   .span-2,
   .span-3,
-  .span-4,
-  .span-6 {
+  .span-4 {
     grid-column: auto;
   }
 }
