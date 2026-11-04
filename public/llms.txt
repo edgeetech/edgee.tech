@@ -5,11 +5,11 @@ EdgeeTech Limited is a founder-led software engineering company registered in En
 ## Services
 - Software architecture and full-stack engineering: .NET, React/TypeScript, micro-frontends (single-spa, Module Federation), design systems, APIs.
 - Cloud and DevOps: AWS, Docker, Kubernetes/Helm on EKS, CI/CD with GitHub Actions and Bitbucket Pipelines.
-- AI-assisted engineering: adopting Claude Code and Codex in teams, MCP integrations, automated review, test generation, governance.
+- AI-assisted engineering: adopting Claude Code in teams, MCP integrations, automated review, test generation, governance.
 - Modernisation of legacy financial and enterprise systems.
 
 ## Products
-- Taksim: intelligence control plane for coding agents. https://taksim.edgee.tech
+- Taksim: spend control and receipts for Claude Code. Keeps ordinary work on Sonnet, steps down instead of cutting off at a budget cap, and shows judged receipts for when Opus was needed. Runs on your machine; no Taksim server. Developer plan free; paid plans not on sale yet. https://taksim.edgee.tech
 - Yuvuno: parent-managed private family photo sharing plus a separate kids' video catalogue; free, invite-only beta (Turkish-first, also English). https://yuvuno.com
 - AgentBoard (source-available, Elastic License 2.0): https://github.com/edgeetech/agentboard
 - Agent Workstation (open source, Windows desktop hub for specialist AI agents, maintenance mode): https://github.com/edgeetech/agentworkstation
