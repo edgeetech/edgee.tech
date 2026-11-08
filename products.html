@@ -2,11 +2,11 @@
 <html lang="en-GB">
   <head>
     <!-- @include head -->
-    <title>Products — Taksim, Yuvuno and open tools by EdgeeTech</title>
-    <meta name="description" content="Taksim is EdgeeTech's spend control and receipts for Claude Code. Yuvuno is a parent-managed family photo and kids' video space, in invite-only beta. We also publish AgentBoard, Agent Workstation, claude-notifier and GitHub Actions." />
+    <title>Products — Yuvuno and open tools by EdgeeTech</title>
+    <meta name="description" content="Yuvuno is a parent-managed family photo and kids' video space, in invite-only beta. We also publish AgentBoard, Agent Workstation, claude-notifier and GitHub Actions. Taksim is closed as a commercial product." />
     <link rel="canonical" href="https://www.edgee.tech/products.html" />
     <meta property="og:title" content="Products — EdgeeTech" />
-    <meta property="og:description" content="Taksim, AgentBoard and the open tools we build for AI-assisted software delivery." />
+    <meta property="og:description" content="Yuvuno, AgentBoard and the open tools we build for AI-assisted software delivery." />
     <meta property="og:url" content="https://www.edgee.tech/products.html" />
   </head>
   <body>
@@ -19,7 +19,7 @@
         <div class="container">
           <p class="eyebrow" data-reveal>Products</p>
           <h1 class="display" data-reveal style="--d: 1">Built in the work, <span class="serif gradient-text">for the work.</span></h1>
-          <p class="lede" data-reveal style="--d: 2">Everything here started as something we needed while delivering software with coding agents. Taksim and Yuvuno are our products; the rest we publish because others might need it too.</p>
+          <p class="lede" data-reveal style="--d: 2">Everything here started as something we needed while delivering software with coding agents. Yuvuno is our product; the rest we publish because others might need it too. Taksim, our Claude Code gateway, is closed.</p>
         </div>
       </section>
 
@@ -28,85 +28,31 @@
           <article class="product">
             <div class="product-copy">
               <div class="product-meta">
-                <span class="tag tag--live">● Live</span>
-                <span class="tag">Windows · macOS · CLI</span>
-                <span class="tag">Runs on your machine</span>
+                <span class="tag">Closed</span>
+                <span class="tag">Benchmark results public</span>
               </div>
               <h2 class="h2" style="margin-bottom: 16px">Taksim</h2>
-              <p><strong>Spend control and receipts for Claude Code.</strong> Taksim keeps ordinary work on Sonnet, steps down instead of cutting off at a budget cap, and shows judged receipts for when Opus was needed. It runs on your machine; no Taksim server exists.</p>
+              <p><strong>Closed as a commercial product: the predeclared tests said no, and we honoured them.</strong> Taksim was our local gateway for Claude Code. Its claim was that using the stronger model only when a task needs it beats a fixed setting. Before the first held-out run we published a benchmark protocol with fixed thresholds. Across three rounds and a re-run after the escalation fixes, routing did not beat a fixed Sonnet default.</p>
+              <p>No paid plan was ever on sale. The benchmark, proof and docs pages stay online for reference, and the code will be made public soon.</p>
               <div class="actions">
-                <a class="btn btn--primary" href="https://taksim.edgee.tech" rel="noopener">Visit taksim.edgee.tech <span class="arrow" aria-hidden="true">↗</span></a>
-                <a class="btn" href="https://taksim.edgee.tech/docs" rel="noopener">Read the docs <span class="arrow" aria-hidden="true">↗</span></a>
+                <a class="btn btn--primary" href="https://asozyurt.com/writing/closing-taksim/" rel="noopener">Read why we closed it <span class="arrow" aria-hidden="true">↗</span></a>
+                <a class="btn" href="https://taksim.edgee.tech/benchmark/" rel="noopener">Benchmark results <span class="arrow" aria-hidden="true">↗</span></a>
               </div>
             </div>
-            <figure class="terminal" data-animate>
-              <div class="terminal-bar" aria-hidden="true"><i></i><i></i><i></i><span>taksim — illustrative</span></div>
-              <figcaption class="visually-hidden">Illustrative Taksim session: a Claude Code task served on Sonnet, with two judges agreeing Sonnet was enough.</figcaption>
-              <div class="terminal-body">
-                <span class="line"><span class="t-prompt">$</span> <span class="t-cmd">taksim claude</span></span>
-                <span class="line"><span class="t-dim">› Fix the failing payment tests</span></span>
-                <span class="line"><span class="t-dim">  and simplify the retry logic.</span></span>
-                <span class="line"><span class="t-dim">  fresh context, task fits a cheaper tier…</span></span>
-                <span class="line"><span class="t-ok">  ✓</span> served on Sonnet</span>
-                <span class="line"><span class="t-ok">  ✓</span> under budget cap</span>
-                <span class="line"><span class="t-ok">  ✓</span> two judges agree</span>
-                <span class="line">  receipt  <span class="t-ok">JUDGED</span>  model <span class="t-year">sonnet</span>  opus needed <span class="t-year">no</span></span>
-                <span class="line"><span class="t-prompt">$</span> <span class="caret" aria-hidden="true"></span></span>
-              </div>
-            </figure>
-          </article>
-        </div>
-      </section>
-
-      <section class="section--tight">
-        <div class="container">
-          <div class="section-head">
             <div>
-              <p class="eyebrow" data-reveal>How Taksim works</p>
-              <h2 class="h2" data-reveal>Sonnet by default. <span class="serif">Opus when it is needed.</span></h2>
+              <div class="receipt" role="img" aria-label="Taksim final benchmark receipt: on 30 SWE-bench Pro instances, Opus resolved 30, Sonnet 29 and Taksim 28; the predeclared decision test failed.">
+                <div class="receipt-head"><span>Final receipt</span><span class="verified">Closed</span></div>
+                <div class="receipt-cmd"><span class="t-prompt">$</span>SWE-bench Pro · 30 instances</div>
+                <div class="receipt-body">
+                  <div class="receipt-row"><span>Always Opus</span><span>30 / 30</span></div>
+                  <div class="receipt-row"><span>Always Sonnet</span><span>29 / 30</span></div>
+                  <div class="receipt-row"><span>Taksim routed</span><span>28 / 30</span></div>
+                  <div class="receipt-row"><span>Decision test</span><span>Failed</span></div>
+                </div>
+              </div>
+              <p class="illustrative">Round 3 and the re-run, from the published protocol</p>
             </div>
-            <p class="lede" data-reveal>Keep using Claude Code as you do today. Taksim works from what it already writes to disk, prices every session and learns from outcomes which tasks need the stronger model. It never silently changes your model.</p>
-          </div>
-          <div class="bento">
-            <div class="card span-2" data-reveal><span class="card-kicker">01</span><h3 class="h3">Install and import</h3><p>One line installs Taksim for your user. Setup finds your coding agents, then imports and prices the history they already keep.</p></div>
-            <div class="card span-2" data-reveal style="--d: 1"><span class="card-kicker">02</span><h3 class="h3">Try cheaper first</h3><p>When the task fits, a cheaper Claude model goes first. One tier at most: Opus to Sonnet.</p></div>
-            <div class="card span-2" data-reveal style="--d: 2"><span class="card-kicker">03</span><h3 class="h3">Step down, never cut off</h3><p>A budget cap steps requests down to a cheaper Claude model instead of blocking them.</p></div>
-            <div class="card span-2" data-reveal><span class="card-kicker">04</span><h3 class="h3">Judge</h3><p>An LLM judge grades finished turns. A verdict counts only when two judges agree and at least one is strong.</p></div>
-            <div class="card span-2" data-reveal style="--d: 1"><span class="card-kicker">05</span><h3 class="h3">Learn from corrections</h3><p>Rejected once, remembered: the next time the same task comes up, the stronger model stays.</p></div>
-            <div class="card span-2" data-reveal style="--d: 2"><span class="card-kicker">06</span><h3 class="h3">See the receipts</h3><p>A local dashboard and weekly report: spend, quota, model mix and what a cheaper model could have saved.</p></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section--tight">
-        <div class="container">
-          <div class="bento">
-            <div class="card span-3" data-reveal>
-              <span class="card-kicker">Claude models only</span>
-              <h3 class="h3">Built for Claude Code</h3>
-              <ul class="checklist">
-                <li><strong>Claude subscription</strong> — shown as quota, not billed dollars; observed by default, Claude-only routing is opt-in</li>
-                <li><strong>Your own API key</strong> — billed per token, with opt-in routing in sessions you launch through Taksim</li>
-                <li><strong>Other coding agents</strong> — their local history can be imported and priced; see the <a class="text-link" href="https://taksim.edgee.tech/clients/" rel="noopener">client table</a></li>
-              </ul>
-            </div>
-            <div class="card span-3" data-reveal style="--d: 1">
-              <span class="card-kicker">Privacy by architecture</span>
-              <h3 class="h3">The shape of your work, never the words</h3>
-              <p>Taksim is a local binary with no Taksim account and no Taksim server. It stores client, model, tokens, cost and judge verdicts — never prompts, responses, source code or credentials — and EdgeeTech does not receive your prompts or code. Your agents still talk to their own providers under those providers' terms.</p>
-            </div>
-            <div class="card span-3" data-reveal>
-              <span class="card-kicker">Developer</span>
-              <h3 class="h3">Free</h3>
-              <p>For any individual, at home or at work. No account and no card required. Routing, judging, budget warnings and the local dashboard are included.</p>
-            </div>
-            <div class="card span-3" data-reveal style="--d: 1">
-              <span class="card-kicker">Pro &amp; Team</span>
-              <h3 class="h3">Not on sale yet</h3>
-              <p>Pro adds budget caps that step down and delivered digests for one developer; Team adds the team roll-up and team budgets. Billing opens when checkout is live; reserving a seat costs nothing.</p>
-              <div class="card-foot"><a class="text-link" href="https://taksim.edgee.tech/pricing" rel="noopener">Pricing details <span class="arrow" aria-hidden="true">↗</span></a></div>
-            </div>
-          </div>
+          </article>
         </div>
       </section>
 
@@ -242,10 +188,10 @@
         <div class="container">
           <div class="cta" data-reveal>
             <h2 class="h2">Running coding agents <span class="serif">across a team?</span></h2>
-            <p class="lede">We can help set them up well, and Taksim keeps Claude Code spend in check, with receipts to show for it.</p>
+            <p class="lede">We can help set them up well, from model defaults and budgets to review gates and agent instructions.</p>
             <div class="actions">
-              <a class="btn btn--primary" href="/contact.html?topic=taksim">Talk to us about Taksim <span class="arrow" aria-hidden="true">→</span></a>
-              <a class="btn" href="https://taksim.edgee.tech" rel="noopener">Get Taksim free <span class="arrow" aria-hidden="true">↗</span></a>
+              <a class="btn btn--primary" href="/contact.html">Talk to us <span class="arrow" aria-hidden="true">→</span></a>
+              <a class="btn" href="/services.html">Our services</a>
             </div>
           </div>
         </div>
