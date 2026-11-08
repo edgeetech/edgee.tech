@@ -149,3 +149,15 @@ test('publishing metadata and public entry points are present', async ({ request
   }
   expect((await readFile('dist/CNAME', 'utf8')).trim()).toBe('www.edgee.tech');
 });
+
+test('Taksim is shown as closed, with no install or pricing calls to action', async ({ page }) => {
+  for (const path of ['/', '/products.html']) {
+    await page.goto(path);
+    const taksim = page.locator('article.product', { has: page.getByRole('heading', { name: 'Taksim', exact: true }) });
+    await expect(taksim).toContainText('Closed as a commercial product');
+    await expect(taksim.getByRole('link', { name: /Read why we closed it/ })).toHaveAttribute('href', 'https://asozyurt.com/writing/closing-taksim/');
+    const html = await page.content();
+    expect(html).not.toContain('Get Taksim free');
+    expect(html).not.toContain('taksim.edgee.tech/pricing');
+  }
+});

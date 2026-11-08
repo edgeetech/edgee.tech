@@ -6,7 +6,7 @@
     <meta name="description" content="EdgeeTech is a founder-led UK software engineering company. Architecture, full-stack delivery, cloud & DevOps and AI-assisted engineering — built on production experience since 2011. Makers of Taksim: spend control and receipts for Claude Code." />
     <link rel="canonical" href="https://www.edgee.tech/" />
     <meta property="og:title" content="EdgeeTech — Software engineering for systems that have to work" />
-    <meta property="og:description" content="Founder-led UK software engineering. Production systems since 2011; AI-assisted delivery today. Makers of Taksim: spend control and receipts for Claude Code." />
+    <meta property="og:description" content="Founder-led UK software engineering. Production systems since 2011; AI-assisted delivery today." />
     <meta property="og:url" content="https://www.edgee.tech/" />
     <script type="application/ld+json">
       {
@@ -33,9 +33,9 @@
         <div class="aurora aurora--b" aria-hidden="true"></div>
         <div class="container hero-grid">
           <div>
-            <a class="badge" href="https://taksim.edgee.tech" rel="noopener" data-reveal>
-              <span class="pill">Free</span>
-              Taksim — spend control and receipts for Claude Code <span aria-hidden="true">→</span>
+            <a class="badge" href="https://asozyurt.com/writing/closing-taksim/" rel="noopener" data-reveal>
+              <span class="pill">Closed</span>
+              Taksim — why we closed it, and what we keep <span aria-hidden="true">→</span>
             </a>
             <h1 class="display" data-reveal style="--d: 1">
               Software engineering for systems that <span class="serif gradient-text">have to work.</span>
@@ -194,35 +194,28 @@
           <article class="product">
             <div class="product-copy">
               <div class="product-meta">
-                <span class="tag tag--live">● Live</span>
-                <span class="tag">Windows · macOS · CLI</span>
-                <span class="tag">Free for developers</span>
+                <span class="tag">Closed</span>
+                <span class="tag">Benchmark results public</span>
               </div>
               <h3>Taksim</h3>
-              <p>Spend control and receipts for Claude Code. Taksim keeps ordinary work on Sonnet, steps down instead of cutting off at a budget cap, and shows judged receipts for when Opus was needed.</p>
-              <ul class="checklist">
-                <li><strong>Sonnet by default</strong> — Opus stays on the tasks where your own outcomes show it is needed</li>
-                <li><strong>Judged receipts</strong> — an LLM judge grades finished turns; a verdict counts only when two judges agree</li>
-                <li><strong>On your machine</strong> — no Taksim account and no Taksim server; prompts, responses and code are never stored</li>
-              </ul>
+              <p>Closed as a commercial product: the predeclared tests said no, and we honoured them. Taksim was our local gateway for Claude Code; across three benchmark rounds and a re-run, routing did not beat a fixed Sonnet default. The code will be made public soon.</p>
               <div class="actions">
-                <a class="btn btn--primary" href="https://taksim.edgee.tech" rel="noopener">Visit taksim.edgee.tech <span class="arrow" aria-hidden="true">↗</span></a>
-                <a class="btn" href="/products.html#taksim">How it works</a>
+                <a class="btn btn--primary" href="https://asozyurt.com/writing/closing-taksim/" rel="noopener">Read why we closed it <span class="arrow" aria-hidden="true">↗</span></a>
+                <a class="btn" href="https://taksim.edgee.tech/benchmark/" rel="noopener">Benchmark results <span class="arrow" aria-hidden="true">↗</span></a>
               </div>
             </div>
             <div>
-              <div class="receipt" role="img" aria-label="Illustrative Taksim receipt for a Claude Code turn served on Sonnet, with two judges agreeing Sonnet was enough.">
-                <div class="receipt-head"><span>Turn receipt</span><span class="verified">✓ Judged</span></div>
-                <div class="receipt-cmd"><span class="t-prompt">$</span>taksim claude</div>
+              <div class="receipt" role="img" aria-label="Taksim final benchmark receipt: on 30 SWE-bench Pro instances, Opus resolved 30, Sonnet 29 and Taksim 28; the predeclared decision test failed.">
+                <div class="receipt-head"><span>Final receipt</span><span class="verified">Closed</span></div>
+                <div class="receipt-cmd"><span class="t-prompt">$</span>SWE-bench Pro · 30 instances</div>
                 <div class="receipt-body">
-                  <div class="receipt-row"><span>Model served</span><span>Sonnet</span></div>
-                  <div class="receipt-row"><span>Budget cap</span><span>Steps down</span></div>
-                  <div class="receipt-row"><span>Judges</span><span>2 of 2 agree</span></div>
-                  <div class="receipt-row"><span>Opus needed</span><span class="t-ok">No</span></div>
-                  <div class="meter" aria-hidden="true"><i style="--w: 53%"></i></div>
+                  <div class="receipt-row"><span>Always Opus</span><span>30 / 30</span></div>
+                  <div class="receipt-row"><span>Always Sonnet</span><span>29 / 30</span></div>
+                  <div class="receipt-row"><span>Taksim routed</span><span>28 / 30</span></div>
+                  <div class="receipt-row"><span>Decision test</span><span>Failed</span></div>
                 </div>
               </div>
-              <p class="illustrative">Illustrative example</p>
+              <p class="illustrative">Round 3 and the re-run, from the published protocol</p>
             </div>
           </article>
 

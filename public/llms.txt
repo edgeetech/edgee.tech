@@ -9,7 +9,7 @@ EdgeeTech Limited is a founder-led software engineering company registered in En
 - Modernisation of legacy financial and enterprise systems.
 
 ## Products
-- Taksim: spend control and receipts for Claude Code. Keeps ordinary work on Sonnet, steps down instead of cutting off at a budget cap, and shows judged receipts for when Opus was needed. Runs on your machine; no Taksim server. Developer plan free; paid plans not on sale yet. https://taksim.edgee.tech
+- Taksim: closed as a commercial product in November 2026. Its predeclared benchmark tests showed that routing did not beat a fixed Sonnet default, and we honoured the result. The benchmark and docs pages stay online for reference; the code will be made public soon. Why: https://asozyurt.com/writing/closing-taksim/ Benchmark: https://taksim.edgee.tech/benchmark/
 - Yuvuno: parent-managed private family photo sharing plus a separate kids' video catalogue; free, invite-only beta (Turkish-first, also English). https://yuvuno.com
 - AgentBoard (source-available, Elastic License 2.0): https://github.com/edgeetech/agentboard
 - Agent Workstation (open source, Windows desktop hub for specialist AI agents, maintenance mode): https://github.com/edgeetech/agentworkstation
